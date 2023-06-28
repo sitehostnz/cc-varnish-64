@@ -3,7 +3,7 @@ FROM ubuntu:focal
 ARG DEBIAN_FRONTEND=noninteractive
 ENV TZ=Pacific/Auckland
 
-RUN apt-get update \
+RUN apt-get update -y \
     && apt-get install -y curl apt-transport-https debian-archive-keyring nano supervisor openssh-client rsync gnupg \
     && apt-get install -y make automake autotools-dev libedit-dev libjemalloc-dev libncurses-dev libpcre3-dev libtool pkg-config python3-docutils python3-sphinx cpio autoconf-archive  \
     && cd /tmp \
