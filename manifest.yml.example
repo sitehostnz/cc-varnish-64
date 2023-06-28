@@ -1,0 +1,28 @@
+version: 1
+image:
+  label: varnish_64
+  type: www
+  provider: 'Company Name'
+  ports:
+    80:
+      exposed: True
+      publish: False
+      protocol: tcp
+
+  volumes:
+    config:
+      mode: ro
+      dest: /container/config
+      uid: 33
+      gid: 33
+    logs:
+      mode: rw
+      dest: /container/logs
+      uid: 33
+      gid: 33
+    varnish:
+      mode: rw
+      dest: /container/varnish
+      uid: 33
+      gid: 33
+
