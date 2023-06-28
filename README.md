@@ -1,6 +1,6 @@
 # Custom Image Example - Varnish Cache 6.4.0
 
-In this example we will be building a Varnish Cache 6.4.0 from scratch and not forked from one of our existing images.
+In this example we will be building a Varnish Cache 6.4.0 from scratch and that is not forked from one of our existing images.
 
 ## What Are Custom Images?
 
@@ -16,7 +16,7 @@ That's not to say there aren't any limitations, you may find some, but if you do
 
 ## The Process
 
-1. [Create a customer image](https://kb.sitehost.nz/cloud-containers/custom-images/create-a-custom-image#image-creation).  Select the option to **not** fork from another images.
+1. [Create a customer image](https://kb.sitehost.nz/cloud-containers/custom-images/create-a-custom-image#image-creation).  Select the option to **not** fork from another image.
 2. Replace your _Dockerfile_ from this example repository.
 3. Copy the _default-data/_ from this example repository into your custom image repository.  This directory will contain the Supervisord and Varnish config files that you can adjust to your needs.
 4. Copy the _manifest.yml.example_ to your custom image repository. Update the _provider:_ field to your SiteHost account name.
