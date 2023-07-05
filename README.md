@@ -1,6 +1,6 @@
 # Custom Image Example - Varnish Cache 6.4.0
 
-In this example we will be building a Varnish Cache 6.4.0 from scratch and that is not forked from one of our existing images.
+In this example we will be building a Varnish Cache 6.4.0 from scratch that is not forked from one of our existing images.
 
 ## What Are Custom Images?
 
